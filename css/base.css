@@ -1,0 +1,41 @@
+/* 基础公共样式：清除默认样式 + 设置通用样式 */
+* {
+	/* 清除默认外边距，并将其设置为0 */
+	margin: 0;
+	/* 清除默认内边距，并将其设置为0 */
+	padding: 0;
+	/* 用于改变元素盒模型的计算方式 */
+	box-sizing: border-box;
+}
+/* 清除默认列表样式 */
+ul,li {
+	list-style: none;
+}
+/* 设置默认字体大小、行高、字体集等样式 */
+body {
+	font: 14px/1.5 "Microsoft Yahei", sans-serif;
+	color: #333;
+}
+/* 清除超连接默认样式,并设置默认颜色 */
+a {
+	color: #333;
+	text-decoration: none;
+}
+/* 双伪元素法清除浮动 */
+.clearfix::before,
+.clearfix::after{
+	content: "";
+	display: table;
+}
+.clearfix::after{
+	clear: both;
+}
+/* 用于控制文本的显示方式，当文本内容超出其容器宽度时，会被截断并以省略号（...）表示 */
+.text-ellipsis {
+  /* 确保文本在一行内显示 */
+  white-space: nowrap; 
+  /* 隐藏超出容器的部分 */
+  overflow: hidden; 
+  /* 超出部分显示为省略号 */
+  text-overflow: ellipsis; 
+}
