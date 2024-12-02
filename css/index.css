@@ -258,3 +258,140 @@ button{
 /* 合作 */
 
 
+.sh-tb{
+	width: 308px;
+	height: 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sh-ttb{
+	/* height: 100%; */
+	padding: 9px;
+	border-bottom: 3px solid #EEF0F2;
+}
+.on{
+	border-bottom: 3px solid #59a0f7;
+}
+.hezi{
+	width: 957px;
+	height: 560px;
+}
+.main---c{
+	height: 420px;
+}
+.fankuai{
+	height: 271px;
+	width: 957px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 85px;
+}
+
+
+
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+.vbn{
+	width: 100%;
+	height: 754px;
+	background-color: #EEF0F2;
+}
+.hezuo{
+	height: 271px;
+	width: 100%;
+	display: block;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hezuo{
+	position: relative;
+}
+.hezuo .kap{
+	height: 271px;
+	width: 228px;
+}
+/* ~~~~~~~~~~~~~ */
+
+.end {
+	width: 100%;
+    background-color: #f4f6f7;
+    height: 190px;
+    margin-top: 60px;
+}
+
+.end .wrapper- {
+    display: flex;
+    justify-content: space-between;
+    height: 190px;
+    padding-top: 30px;
+}
+
+.end .wrapper- .left {
+    width: 432px;
+    height: 148px;
+    margin-left: 360px;
+}
+
+.end .wrapper- .left img {
+    margin-bottom: 20px;
+}
+
+.end .wrapper- .left div {
+    width: 432px;
+    height: 33px;
+    font-size: 12px;
+    color: #666;
+    line-height: 17px;
+    
+}
+
+.end .wrapper- .left a {
+    display: block;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #00a4ff;
+    font-size: 16px;
+    color: #00a4ff;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 11px;
+}
+
+.end .wrapper- .left a:hover {
+    background-color: #ececec;
+}
+
+.end .wrapper- .right {
+    width: 516px;
+    height: 151px;
+	margin-right: 360px;
+}
+
+.end .wrapper- .right ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end .wrapper- .right li h5 {
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.end .wrapper- .right li a {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+}
+
+.end .wrapper- .right li a:hover {
+    color: orange;
+}
